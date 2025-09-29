@@ -16,7 +16,7 @@
             </form>
         </div>
         <div class="task flex gap-3 flex-wrap p-10">
-            <% if(files.length > 0){ %>
+            <% if(files && files.length > 0){ %>
                 <% files.forEach(function(val){ %>
                     <div class="tasks min-w-72 px-3 py-4 rounded-md bg-zinc-800">
                         <h1 class="text-white text-3xl tracking-tighter"><%= val %></h1>
